@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+
+.content {
+    width: 80%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    padding: 5px;
+    min-width: 100%;
+    margin: 5px auto 20px auto;
+    border-radius: 5px;
+}

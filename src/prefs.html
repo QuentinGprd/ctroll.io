@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Preferences</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+
+<body>
+    <div class="content">
+        <label for="haHost">Home Assistant Host:</label>
+        <br>
+        <input type="text" id="haHost" name="haHost" placeholder="sub.domain.com">
+        <br>
+        <label for="haPort">Home Assistant Port:</label>
+        <br>
+        <input type="number" id="haPort" name="haPort" placeholder="443">
+        <br>
+        <label for="haAuthToken">Home Assistant Auth Token:</label>
+        <br>
+        <input type="password" id="haAuthToken" name="haAuthToken">
+        <br>
+        <input type="checkbox" id="openAtLogin" name="openAtLogin" value="Open at login">
+        <label for="openAtLogin">Open at login</label>
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+</body>
+
+</html>
