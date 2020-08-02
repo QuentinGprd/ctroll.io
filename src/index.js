@@ -1,9 +1,6 @@
 const { app, Menu, Tray } = require('electron');
 const path = require('path');
 
-const unhandled = require('electron-unhandled');
-unhandled();
-
 const prefs = require('./prefs');
 
 const mpvClient = require('./mpvClient');

@@ -623,11 +623,6 @@ chromium-pickle-js@^0.2.0:
   resolved "https://registry.yarnpkg.com/chromium-pickle-js/-/chromium-pickle-js-0.2.0.tgz#04a106672c18b085ab774d983dfa3ea138f22205"
   integrity sha1-BKEGZywYsIWrd02YPfo+oTjyIgU=
 
-clean-stack@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
-  integrity sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==
-
 cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
@@ -968,11 +963,6 @@ electron-installer-redhat@^3.0.0:
     word-wrap "^1.2.3"
     yargs "^15.1.0"
 
-electron-is-dev@^1.0.1:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/electron-is-dev/-/electron-is-dev-1.2.0.tgz#2e5cea0a1b3ccf1c86f577cee77363ef55deb05e"
-  integrity sha512-R1oD5gMBPS7PVU8gJwH6CtT0e6VSoD0+SzSnYpNm+dBkcijgA+K7VAMHDfnRq/lkKPZArpzplTW6jfiMYosdzw==
-
 electron-notarize@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/electron-notarize/-/electron-notarize-0.1.1.tgz#c3563d70c5e7b3315f44e8495b30050a8c408b91"
@@ -1046,16 +1036,6 @@ electron-squirrel-startup@^1.0.0:
   dependencies:
     debug "^2.2.0"
 
-electron-unhandled@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/electron-unhandled/-/electron-unhandled-3.0.2.tgz#e14a19c830ccf7b6e755191c8e78d23094d25112"
-  integrity sha512-IIqXnM5eNgV7k5sDA/GZ39ygJbpfF3WTArNGQ1TB4AI6ajQuuVztA0M6Mq9uEpmTh5gz4nR+YsTNWYsHLoM5rw==
-  dependencies:
-    clean-stack "^2.1.0"
-    electron-is-dev "^1.0.1"
-    ensure-error "^2.0.0"
-    lodash.debounce "^4.0.8"
-
 electron-winstaller@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/electron-winstaller/-/electron-winstaller-4.0.1.tgz#69da2a439a6986210c3106305f921a522369207d"
@@ -1097,11 +1077,6 @@ end-of-stream@^1.1.0, end-of-stream@^1.4.1:
   integrity sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==
   dependencies:
     once "^1.4.0"
-
-ensure-error@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/ensure-error/-/ensure-error-2.1.0.tgz#f11fbe383c0cf4a54850ac77acceb7bc06e0f99d"
-  integrity sha512-+BMSJHw9gxiJAAp2ZR1E0TNcL09dD3lOvkl7WVm4+Y6xnes/pMetP/TzCHiDduh8ihNDjbGfuYxl7l4PA1xZ8A==
 
 env-paths@^2.2.0:
   version "2.2.0"
@@ -1817,11 +1792,6 @@ lodash.assign@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.assign/-/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
   integrity sha1-DZnzzNem0mHRm9rrkkUAXShYCOc=
-
-lodash.debounce@^4.0.8:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
-  integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
 lodash.get@^4.0.0:
   version "4.4.2"

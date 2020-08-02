@@ -48,7 +48,6 @@
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
-    "electron-unhandled": "^3.0.2",
     "keytar": "^6.0.1"
   },
   "devDependencies": {
