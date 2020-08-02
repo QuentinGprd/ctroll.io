@@ -42,11 +42,14 @@ const createClient = (options) => {
     });
 
     _client.on('error', (error) => {
-        if (error.code === 'ECONNREFUSED') {
-            return;
-        }
+        switch (error.code) {
+            case 'ECONNREFUSED':
+            case 'ENOENT':
+                return;
 
-        throw error;
+            default:
+                throw error;
+        }
     });
 
     _client.on('close', () => {
